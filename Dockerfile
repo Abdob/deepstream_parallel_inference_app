@@ -1,7 +1,7 @@
 #
 # Set base image
 #
-ARG BASE_IMAGE=nvcr.io/nvidia/deepstream:6.1.1-triton
+ARG BASE_IMAGE
 FROM ${BASE_IMAGE}
 
 RUN apt update -y
